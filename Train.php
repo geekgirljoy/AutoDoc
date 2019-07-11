@@ -25,7 +25,7 @@ $layers = array($num_input, $num_neurons_hidden_1, $num_neurons_hidden_2, $num_o
 $num_layers=count($layers);
 
 // Create ANN
-$ann = fann_create_standard_array ( $num_layers , $layers);
+$ann = fann_create_standard_array ($num_layers , $layers);
 
 if ($ann) {
   echo 'Training ANN... ' . PHP_EOL;
@@ -43,8 +43,8 @@ if ($ann) {
   $train_data = fann_merge_train_data ($train_data_1, $train_data_2);
 
   // Remove the partial data resources from memory
-  fann_destroy_train ( $train_data_1 );
-  fann_destroy_train ( $train_data_2 );
+  fann_destroy_train ($train_data_1);
+  fann_destroy_train ($train_data_2);
  
  
   // Check if pseudo_mse_result is greater than our desired_error
@@ -64,7 +64,7 @@ if ($ann) {
   // actual MSE after the training epoch, but since calculating this
   // will require to go through the entire training set once more.
   // It is more than adequate to use this value during training.
-  $pseudo_mse_result = fann_train_epoch ($ann , $train_data );
+  $pseudo_mse_result = fann_train_epoch ($ann , $train_data);
   echo 'Epoch ' . $current_epoch . ' : ' . $pseudo_mse_result . PHP_EOL; // report
    
   // If we haven't saved the ANN in a while...
