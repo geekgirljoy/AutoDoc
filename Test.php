@@ -245,7 +245,7 @@ imagedestroy($health_bar_b);
 // Load ANN
 $train_file = (dirname(__FILE__) . "/finished.net");
 if (!is_file($train_file)){
-    die("The file ocr_float.net has not been created!" . PHP_EOL);
+    die("The file finished.net has not been created!" . PHP_EOL);
 }
 
 $ann = fann_create_from_file($train_file);
