@@ -7,16 +7,20 @@
 * Replying with a yes or no if a RadAway and or StimPak should be used.
 
 
-Step 1 – Collecting The Raw Training Data
+## Guide: 
 
-Step 2 – Preparing The Screenshots
+**Readme:** [https://geekgirljoy.wordpress.com/2019/07/11/how-i-built-a-working-autodoc/](https://geekgirljoy.wordpress.com/2019/07/11/how-i-built-a-working-autodoc/)
 
-Step 3 – Tagging The Data
+
+## Process: 
+Step 1 – Collect Raw Training Data
+
+Step 2 – Prepare The Screenshots
+
+Step 3 – Tag The Data
 
 Step 4 – Merge Pixel Data With Training Data
 
 Step 5 – Train The Bot
 
 Step 6 – Test The Bot
-
-**Readme:** [https://geekgirljoy.wordpress.com/2019/07/11/how-i-built-a-working-autodoc/](https://geekgirljoy.wordpress.com/2019/07/11/how-i-built-a-working-autodoc/)
